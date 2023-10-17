@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Fonts:
+1) Inter :   font-family: 'Inter', sans-serif; */
+
+.container{
+    background: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-container{
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    width: 600px;
+    height: 250px;
+    background: #65451F;
+    /* background: #6943FF; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#heading{
+    font-family: 'Inter', sans-serif;
+    color: whitesmoke;
+    /* color: #FFFFFF; */
+    line-height: 38px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+
+#input-num{
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;   
+    background: #65451F;
+    /* background: #6943FF; */
+    width: 80px;
+    height: 80px;
+    /* border: 2px solid greenyellow; */
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0;
+    font-size: 50px;
+    font-weight: 550;
+}
+
+#convert-btn{
+    font-family: 'Inter', sans-serif;   
+    padding: 15px 25px;
+    font-size: 16px;
+    /* background: #FFFFFF; */
+    background: #EAC696;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.sub-container{
+    width: 600px;
+    height: 400px;
+    /* background: #1F2937; */
+    background: #EAC696;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.meters{
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    /* background: #273549; */
+    background: #765827;
+    height: 120px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.length{
+    /* color: #CCC1FF; */
+    color: whitesmoke;
+    font-family: 'Inter', sans-serif;   
+    font-weight: 600;
+    line-height: 20px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.length-cal{
+    color: #FFFFFF;
+    line-height: 20px;
+    font-family: 'Inter', sans-serif;   
+}
